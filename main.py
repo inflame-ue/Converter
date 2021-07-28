@@ -1,18 +1,15 @@
-# TODO: Python converter program with tkinter:
 from tkinter import *
 
 # Constants:
 FONT = ("Comic Sans", 10)
 
 
-# TODO: 2. Create a logic of the program(convert given miles to kilometrs with formula)
 def convert():
     user_input = entry.get()
     result = int(user_input) * 1.60934
     label_three.config(text=str(result))
 
 
-# TODO: 1. Create a window and setup the design with all widgets:
 window = Tk()
 window.minsize(width=300, height=130)
 window.title("Converter")
